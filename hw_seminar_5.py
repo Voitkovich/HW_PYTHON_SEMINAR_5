@@ -1,12 +1,12 @@
 # Задача 1. Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
 
 
-# with open('файл для задач.txt', 'r', encoding='utf-8') as file:    
-#     text = file.read().split()
-#     print(text)
+with open('файл для задач.txt', 'r', encoding='utf-8') as file:    
+    text = file.read().split()
+    print(text)
    
-# new_text = list(filter(lambda word: 'а' not in word and 'б' not in word and 'в' not in word, text))
-# print(new_text)      
+new_text = list(filter(lambda word: 'а' not in word and 'б' not in word and 'в' not in word, text))
+print(new_text)      
 
 # Задача 4. Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных.
 
